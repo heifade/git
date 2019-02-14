@@ -24,3 +24,8 @@ git branch b1
 用c1分支创建b1分支
 git branch b1 c1
 
+
+将b1与master 分叉变成一条直线
+git rebase master b1 // 将b1分支中的修复变基到master上, server 中的代码被“续”到了 master 后面。
+git checkout master
+git merge b1
