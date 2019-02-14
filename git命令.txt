@@ -13,6 +13,13 @@ git push origin master:c
 用远程获取所有分支
 git fetch origin
 
+用当前分支创建b1分支，并检出b1分支
+git checkout -b b1
+用c1分支创建b1分支，并检出b1分支
+git checkout -b b1 c1
 
-aa
-bb
+用当前分支创建b1分支
+git branch b1
+用c1分支创建b1分支
+git branch b1 c1
+
