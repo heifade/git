@@ -1,3 +1,7 @@
+用远程获取分支a，需要2个命令：
+git fetch origin
+git checkout -b a origin/a
+
 查看本地及远程分支
 git branch -a
 
@@ -9,9 +13,6 @@ git push origin --delete c
 
 将本地的master分支推送到远程分支c上
 git push origin master:c
-
-用远程获取所有分支
-git fetch origin
 
 用当前分支创建b1分支，并检出b1分支
 git checkout -b b1
