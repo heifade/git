@@ -1,0 +1,11 @@
+查看本地及远程分支
+git branch -a
+
+删除本地分支a
+git branch -d a
+
+删除远程分支
+git push origin --delete c
+
+将本地的master分支推送到远程分支c上
+git push origin master:c
