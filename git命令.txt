@@ -9,3 +9,6 @@ git push origin --delete c
 
 将本地的master分支推送到远程分支c上
 git push origin master:c
+
+用远程c分支创建本地的c1
+git pull origin c:c1
