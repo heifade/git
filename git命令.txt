@@ -1,6 +1,8 @@
-用远程获取分支a，需要2个命令：
-git fetch origin
-git checkout -b a origin/a
+从远程获取分支信息
+git remote update
+
+用远程获取分支a：
+git checkout -b a
 
 查看本地及远程分支
 git branch -a
